@@ -1,3 +1,6 @@
+# when u start this project u need to write to terminal: npm install
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
