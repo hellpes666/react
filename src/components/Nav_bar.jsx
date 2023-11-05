@@ -1,14 +1,16 @@
+import classes from './Nav_bar.module.css'
+
 const Nav_bar = () => {
     return (
-        <nav className='nav'>
+        <nav className={classes.nav}>
             <ul>
-            <li><a href='#'>Profile</a></li>
-            <li><a href='#'>Messages</a></li>
-            <li><a href='#'>News</a></li>
-            <li><a href='#'>Music</a></li>
-            <li><a href='#'>Settings</a></li>
-            
-        </ul>
+                <li><a className={classes.item} href='#'>Profile</a></li>
+                <li><a className={classes.item} href='#'>Messages</a></li>
+                <li><a className={classes.item} href='#'>News</a></li>
+                <li><a className={classes.item} href='#'>Music</a></li>
+                <li><a className={classes.item} href='#'>Settings</a></li>
+                
+            </ul>
         </nav>
     )
 }

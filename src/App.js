@@ -1,8 +1,7 @@
 import './App.css';
-import Profile from './components/Content';
+import Profile from './components/Profile';
 import Header from './components/Header';
 import Nav_bar from './components/Nav_bar';
-
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Nav_bar />
         
         <Profile />
-
       </div>    
     </div>
 
